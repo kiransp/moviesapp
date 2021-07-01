@@ -121,7 +121,7 @@ const {user}=this.props
           <div className="col">
             <h2>There are {totalCount} movies in DB</h2>
             <SearchBox value={searchQuery} onChange={this.handleSearch} />
-        {user &&     <Link
+        {user &&      <Link
               to="movies/new"
               className="btn btn-primary"
               style={{ marginBottom: "20px" }}
